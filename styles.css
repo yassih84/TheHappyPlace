@@ -332,12 +332,19 @@ body {
 .owner-face {
   display: block;
   margin: 0 auto 18px auto;
-  width: 260px;
-  height: 260px;
+  width: 140px;
+  height: 140px;
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 2px 12px rgba(123, 63, 242, 0.10);
   border: 3px solid #f3e8ff;
+}
+
+@media (max-width: 700px) {
+  .owner-face {
+    width: 90px;
+    height: 90px;
+  }
 }
 
 .shop-feature {
