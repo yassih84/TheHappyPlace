@@ -1,0 +1,420 @@
+
+/*
+* Shop page view cart button custom style
+ */
+.product .product-item .add-to-cart .added_to_cart {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   background-color: #f63440;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    font-size: 15px;
+   z-index: 9999;
+
+}
+
+/*
+* My account page navigation custom style
+ */
+
+.woocommerce-MyAccount-navigation ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/*single page variation table design*/
+.content-detail .variations tbody {
+     display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap:20px
+}
+.content-detail .variations tbody tr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+.content-detail .variations tbody tr td {
+    width: 70%;
+}
+.content-detail .variations tbody tr th {
+    width: 30%;
+    text-align: start;
+}
+
+.content-detail .product_meta {
+    margin:20px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+/*woocommerce breadcrumbs custom style*/
+.woocommerce-breadcrumb {
+    margin:15px 0;
+}
+
+.post-navigation{
+    margin-top: 20px;
+    padding: 7px;
+}
+
+/*Start font page hero section*/
+.hero-main{
+    height: 70vh;
+}
+.hero-main .clipped{
+    min-height: 350px;
+    background-position: center;
+    background-size: cover;"
+}
+.style2 .no-product{
+    text-align: center;
+}
+
+/* WooCommerce Account Password Fields Styling */
+.woocommerce-EditAccountForm fieldset {
+    border: 1px solid #ebebeb;
+    border-radius: 6px;
+    padding: 1.5em 1.5em 1em 1.5em;
+    margin-bottom: 2em;
+    background: transparent;
+}
+
+.woocommerce-EditAccountForm fieldset legend {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #333;
+    padding: 0 0.5em;
+    margin-bottom: 1em;
+}
+
+.woocommerce-EditAccountForm .password-input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.woocommerce-EditAccountForm .password-input input[type="password"] {
+    flex: 1 1 auto;
+    width: 100%;
+    min-width: 0;
+    margin-right: 0.5em;
+    height: 50px;
+    padding-left: 17px;
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    font-size: 1em;
+    background: #fff;
+}
+
+.woocommerce-EditAccountForm .password-input .show-password-input {
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #b3b7c8;
+}
+
+.woocommerce-EditAccountForm .form-row-wide {
+    margin-bottom: 1.5em;
+}
+
+.woocommerce-EditAccountForm .form-row label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: 500;
+    color: #333;
+}
+
+/* WooCommerce Account Form - Consistent Field Styles */
+.woocommerce-EditAccountForm .form-row,
+.woocommerce-EditAccountForm .form-row-wide,
+.woocommerce-EditAccountForm .form-row-first,
+.woocommerce-EditAccountForm .form-row-last {
+    margin-bottom: 1.5em;
+    width: 100%;
+    display: block;
+}
+
+.woocommerce-EditAccountForm input[type="text"],
+.woocommerce-EditAccountForm input[type="email"],
+.woocommerce-EditAccountForm input[type="password"],
+.woocommerce-EditAccountForm input[type="tel"],
+.woocommerce-EditAccountForm input[type="url"],
+.woocommerce-EditAccountForm input[type="number"],
+.woocommerce-EditAccountForm input[type="search"],
+.woocommerce-EditAccountForm textarea {
+    width: 100%;
+    height: 50px;
+    padding-left: 17px;
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    font-size: 1em;
+    background: #fff;
+    margin-bottom: 0.5em;
+    transition: border-color 0.2s;
+}
+
+.woocommerce-EditAccountForm textarea {
+    min-height: 100px;
+    padding-top: 12px;
+}
+
+.woocommerce-EditAccountForm input[type="text"]:focus,
+.woocommerce-EditAccountForm input[type="email"]:focus,
+.woocommerce-EditAccountForm input[type="password"]:focus,
+.woocommerce-EditAccountForm input[type="tel"]:focus,
+.woocommerce-EditAccountForm input[type="url"]:focus,
+.woocommerce-EditAccountForm input[type="number"]:focus,
+.woocommerce-EditAccountForm input[type="search"]:focus,
+.woocommerce-EditAccountForm textarea:focus {
+    border-color: #4E11E2;
+    outline: 2px solid #4E11E2;
+    outline-offset: 2px;
+}
+
+.woocommerce-EditAccountForm label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: 500;
+    color: #333;
+    font-size: 1em;
+}
+
+.woocommerce-EditAccountForm .required {
+    color: #ff4444;
+}
+
+.woocommerce-EditAccountForm .woocommerce-Button.button {
+    display: inline-block;
+    padding: 0.75em 2em;
+    background: #4E11E2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-top: 1em;
+}
+
+.woocommerce-EditAccountForm .woocommerce-Button.button:hover,
+.woocommerce-EditAccountForm .woocommerce-Button.button:focus {
+    background: #3a0da0;
+    color: #fff;
+    outline: none;
+}
+
+.woocommerce-EditAccountForm .clear {
+    display: none;
+}
+
+.woocommerce-account .woocommerce-EditAccountForm input[readonly],
+.woocommerce-account .woocommerce-EditAccountForm input[disabled] {
+    background: #f5f5f5 !important;
+    color: #b3b7c8 !important;
+    cursor: not-allowed !important;
+}
+
+.woocommerce-account .woocommerce-EditAccountForm select {
+    height: 50px !important;
+    padding-left: 17px !important;
+    border-radius: 4px !important;
+    border: 1px solid #ebebeb !important;
+    background: #fff !important;
+}
+
+/* WooCommerce Login & Account Forms - Consistent Design */
+.woocommerce-form .form-row,
+.woocommerce-form .form-row-wide,
+.woocommerce-form .form-row-first,
+.woocommerce-form .form-row-last {
+    margin-bottom: 1.5em;
+    width: 100%;
+    display: block;
+}
+
+.woocommerce-form input[type="text"],
+.woocommerce-form input[type="email"],
+.woocommerce-form input[type="password"],
+.woocommerce-form input[type="tel"],
+.woocommerce-form input[type="url"],
+.woocommerce-form input[type="number"],
+.woocommerce-form input[type="search"],
+.woocommerce-form textarea {
+    width: 100%;
+    height: 50px;
+    padding-left: 17px;
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    font-size: 1em;
+    background: #fff;
+    margin-bottom: 0.5em;
+    transition: border-color 0.2s;
+    box-sizing: border-box;
+}
+
+.woocommerce-form textarea {
+    min-height: 100px;
+    padding-top: 12px;
+}
+
+.woocommerce-form input[type="text"]:focus,
+.woocommerce-form input[type="email"]:focus,
+.woocommerce-form input[type="password"]:focus,
+.woocommerce-form input[type="tel"]:focus,
+.woocommerce-form input[type="url"]:focus,
+.woocommerce-form input[type="number"]:focus,
+.woocommerce-form input[type="search"]:focus,
+.woocommerce-form textarea:focus {
+    border-color: #4E11E2;
+    outline: 2px solid #4E11E2;
+    outline-offset: 2px;
+}
+
+.woocommerce-form label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: 500;
+    color: #333;
+    font-size: 1em;
+}
+
+.woocommerce-form .required {
+    color: #ff4444;
+}
+
+.woocommerce-form .woocommerce-button.button,
+.woocommerce-form button[type="submit"] {
+    display: inline-block;
+    padding: 0.75em 2em;
+    background: #4E11E2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-top: 1em;
+}
+
+.woocommerce-form .woocommerce-button.button:hover,
+.woocommerce-form .woocommerce-button.button:focus,
+.woocommerce-form button[type="submit"]:hover,
+.woocommerce-form button[type="submit"]:focus {
+    background: #3a0da0;
+    color: #fff;
+    outline: none;
+}
+
+.woocommerce-form .password-input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.woocommerce-form .password-input input[type="password"] {
+    flex: 1 1 auto;
+    width: 100%;
+    min-width: 0;
+    margin-right: 0.5em;
+    height: 50px;
+    padding-left: 17px;
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    font-size: 1em;
+    background: #fff;
+}
+
+.woocommerce-form .password-input .show-password-input {
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #b3b7c8;
+}
+
+.woocommerce-form .form-row input[type="checkbox"] {
+    width: auto;
+    height: auto;
+    margin-right: 0.5em;
+    min-width: unset;
+    min-height: unset;
+    padding: 0;
+}
+
+.woocommerce-form .form-row label.woocommerce-form__label-for-checkbox {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.woocommerce-form .lost_password {
+    margin-top: 1em;
+    font-size: 0.95em;
+}
+
+.woocommerce-form .lost_password a {
+    color: #4E11E2;
+    text-decoration: underline;
+}
+
+.woocommerce-form .lost_password a:hover {
+    color: #3a0da0;
+} 
+
+/* WooCommerce Cart Submit Container */
+.wc-block-cart__submit-container a{
+    text-decoration: none;
+}
+.wc-block-cart__submit-container a span{
+   background-color: #4E11E2;
+   color: #fff;
+   padding: 10px 20px;
+   border-radius: 8px;
+   text-decoration: none;
+}
+
+/* WooCommerce Cart table */
+.wc-block-cart-item__wrap{
+    padding: 10px;
+}
+.wc-block-cart-item__wrap a{
+    padding:0;
+}
+.wc-block-cart-item__wrap p,
+.wc-block-cart-item__wrap span{
+  font-size: 14px;
+}
+.wc-block-cart-item__wrap .wc-block-cart-item__quantity .wc-block-cart-item__remove-link{
+    font-size: 11px !important;
+    padding: 8px 10px !important;
+    background-color: #4E11E2 !important;
+    color: #fff  !important;
+    border-radius: 8px !important;
+    text-decoration: none !important;
+}
