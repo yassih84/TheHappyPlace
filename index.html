@@ -27,37 +27,74 @@
     <section class="product-side">
       <h1 class="shop-feature">A little treasure from my hands to yours!</h1>
       <div class="product-grid">
-        <div class="product-card">
+        <div class="product-card page-1">
           <img src="./images/SourPatch.png" alt="Sour Patch Bracelet" />
           <h3>Sour Patch Bracelet</h3>
           <p class="price">$15.00</p>
         </div>
-        <div class="product-card">
+        <div class="product-card page-1">
           <img src="./images/tripleFun.png" alt="Triple Fun Bracelet" />
           <h3>Triple Fun Bracelet</h3>
           <p class="price">$20.00</p>
         </div>
-        <div class="product-card">
+        <div class="product-card page-1">
           <img src="./images/tripleFun2.png" alt="Triple Fun 2 Bracelet" />
           <h3>Triple Fun 2 Bracelet</h3>
           <p class="price">$22.00</p>
         </div>
-        <div class="product-card">
+        <div class="product-card page-1">
           <img src="./images/SourPatch.png" alt="Sour Patch Bracelet 2" />
           <h3>Sour Patch Bracelet 2</h3>
           <p class="price">$15.00</p>
         </div>
-        <div class="product-card">
+        <div class="product-card page-1">
           <img src="./images/tripleFun.png" alt="Triple Fun Bracelet 2" />
           <h3>Triple Fun Bracelet 2</h3>
           <p class="price">$20.00</p>
         </div>
-        <div class="product-card">
+        <div class="product-card page-1">
           <img src="./images/tripleFun2.png" alt="Triple Fun 2 Bracelet 2" />
           <h3>Triple Fun 2 Bracelet 2</h3>
           <p class="price">$22.00</p>
         </div>
+        <div class="product-card page-2" style="display:none;">
+          <img src="./images/SourPatch.png" alt="Sour Patch Bracelet 3" />
+          <h3>Sour Patch Bracelet 3</h3>
+          <p class="price">$15.00</p>
+        </div>
+        <div class="product-card page-2" style="display:none;">
+          <img src="./images/tripleFun.png" alt="Triple Fun Bracelet 3" />
+          <h3>Triple Fun Bracelet 3</h3>
+          <p class="price">$20.00</p>
+        </div>
+        <div class="product-card page-2" style="display:none;">
+          <img src="./images/tripleFun2.png" alt="Triple Fun 2 Bracelet 3" />
+          <h3>Triple Fun 2 Bracelet 3</h3>
+          <p class="price">$22.00</p>
+        </div>
       </div>
+      <div class="pagination">
+        <button class="page-btn active" onclick="showPage(1)">1</button>
+        <button class="page-btn" onclick="showPage(2)">2</button>
+      </div>
+      <script>
+        function showPage(page) {
+          var cards1 = document.querySelectorAll('.product-card.page-1');
+          var cards2 = document.querySelectorAll('.product-card.page-2');
+          var btns = document.querySelectorAll('.page-btn');
+          if(page === 1) {
+            cards1.forEach(card => card.style.display = '');
+            cards2.forEach(card => card.style.display = 'none');
+            btns[0].classList.add('active');
+            btns[1].classList.remove('active');
+          } else {
+            cards1.forEach(card => card.style.display = 'none');
+            cards2.forEach(card => card.style.display = '');
+            btns[0].classList.remove('active');
+            btns[1].classList.add('active');
+          }
+        }
+      </script>
     </section>
   </main>
   <footer class="site-footer">
